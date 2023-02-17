@@ -1,10 +1,12 @@
-import React from 'react';
+import React from "react";
 import Page from "./components/page";
 
 const App = () => {
-  return <>
-    <Page />
-  </>
-}
+    return (
+        <>
+            <Page />
+        </>
+    );
+};
 
-export default App
+export default App;

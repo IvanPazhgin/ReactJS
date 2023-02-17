@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 // import ReactDOM from 'react-dom/client';
 // import './index.css';
 // import App from './App';
@@ -18,11 +18,8 @@ import React from 'react';
 // reportWebVitals();
 
 // code from video
-import reactDom from 'react-dom'
-import 'bootstrap/dist/css/bootstrap.css'
+import reactDom from "react-dom";
+import "bootstrap/dist/css/bootstrap.css";
 import App from "./app.jsx";
 
-
-reactDom.render(<App />, document.getElementById('root'))
-
-
+reactDom.render(<App />, document.getElementById("root"));
