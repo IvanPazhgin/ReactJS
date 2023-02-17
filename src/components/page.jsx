@@ -3,6 +3,7 @@ import Navbar from "../UI/navbar/navbar";
 import CountersList from "./countersList";
 import Breadcrumb from "./Breadcrumb";
 import RenderTags from "./tags";
+import EpisodesList from "./episodesList";
 
 const Page = () => {
   const initialState = [
@@ -60,6 +61,8 @@ const Page = () => {
         <h3 className="h3"><CountersList /></h3>
         <hr/>
         <RenderTags />
+        <hr/>
+        <EpisodesList />
       </div>
     </main>
   )
